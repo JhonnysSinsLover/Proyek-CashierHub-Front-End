@@ -48,7 +48,7 @@ export const PaymentModal = ({
         user_id: user?.id || 1,
         total_price: total,
         cash_amount: cash,
-        change_amount: calculatedChange,
+        // change_amount dihitung otomatis di backend
         items: cartItems.map((item) => ({
           product_id: item.id,
           quantity: item.quantity,

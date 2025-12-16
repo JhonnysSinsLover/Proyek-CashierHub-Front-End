@@ -7,6 +7,7 @@ export const API_ENDPOINTS = {
   LOGIN: `${API_BASE_URL}/api/login`,
   USERS: `${API_BASE_URL}/api/users`,
   USER_STATS: `${API_BASE_URL}/api/users/stats`,
+  CATEGORIES: `${API_BASE_URL}/api/categories`,
   PRODUCTS: `${API_BASE_URL}/api/products`,
   PRODUCT_STATS: `${API_BASE_URL}/api/products/stats`,
   TRANSACTIONS: `${API_BASE_URL}/api/transactions`,
